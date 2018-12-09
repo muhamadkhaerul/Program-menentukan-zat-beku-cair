@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int suhu;
+
+    cout << "\n....PROGRAM MENENTUKAN CAIR ATAU BEKU....\n" << endl;
+
+    cout << "kita akan mengidentifikasi air "<<endl;
+
+    cout << "masukan suhu nya : ";
+
+    cin >>suhu;
+
+    if (suhu<0)
+  cout<<"benar,suhu dari "<<suhu<<" derajat adalah zat beku\n";
+  else
+    cout<<"bukan,suhu dari "<<suhu<<" derajat adalah zat cair\n";
+
+    return 0;
+}
